@@ -1,9 +1,10 @@
 @import url(http://fonts.googleapis.com/css?family=Oswald);
 body {
-  background: url("../img/bg.png"); }
+  margin-top: 1em;
+  background: url("../img/tactile_noise.png"); }
 
 .wrapper {
-  background: url("../img/sos.png"); }
+  background: #fff; }
 
 .brand {
   font-family: "Oswald", sans-serif; }
@@ -11,3 +12,9 @@ body {
     font-size: 40px; }
   .brand .brand-tagline {
     font-size: 27px; }
+
+.separator {
+  background: #777;
+  height: 2px;
+  margin: 25px 0;
+  width: 100%; }

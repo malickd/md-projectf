@@ -2,16 +2,19 @@
 
 $font-main: 'Oswald', sans-serif;
 
-$bg-main: url('../img/bg.png');
-$bg-content: url('../img/sos.png');
+$bg-body: url('../img/tactile_noise.png');
+$bg-wrapper: #fff;
+
+$color-subtle: #777;
 
 body {
-    background: $bg-main;
+    margin-top: 1em;
+    
+    background: $bg-body;
+    
 }
-
-
 .wrapper {
-    background: $bg-content;
+    background: $bg-wrapper;
 }
 
 .brand {
@@ -22,4 +25,11 @@ body {
     .brand-tagline {
         font-size: 27px;
     }
+}
+
+.separator {
+    background: $color-subtle;
+    height: 2px;
+    margin: 25px 0;
+    width: 100%;    
 }

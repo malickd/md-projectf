@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Nima product</title>
+    <title>Nimba product</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -21,17 +21,37 @@
   </head>
   <body>
       
-    <div class="wrapper ontainer">
+    <div class="wrapper container">
+        
         <header class="brand text-center">
             <h1 class="brand-logo">
                 Introducing Nimba<br>
                 <small class="brand-tagline">Take it with you everywhere</small>
             </h1>
         </header>
+        
+        <div class="separator"></div> <!-- creates a line to separate major sections -->
+        
         <main class="content">
-            Content will be here
+            <div class="row">
+                <div class="col-sm-3">
+                    <ul class="nav nav-pills nav-stacked ">
+                      <li role="presentation" class="active"><a href="#">Home</a></li>
+                      <li role="presentation"><a href="#">How it works</a></li>
+                      <li role="presentation"><a href="#">About</a></li>
+                      <li role="presentation"><a href="#">Contact</a></li>
+                    </ul>
+                </div> <!-- /.col -->
+                
+                <div class="col-sm-9">
+                    <img class="hero" alt="" src="img/nimba.png">
+                </div> <!-- /.col -->
+            </div> <!-- /.row -->            
         </main>
-        <footer>
+        
+        <div class="separator"></div> <!-- creates a line to separate major sections -->
+
+        <footer class="footer">
             &copy; 2014 Malick's Final Project
         </footer>
     </div> <!-- /.container -->
