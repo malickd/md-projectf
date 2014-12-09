@@ -1,0 +1,13 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+body {
+  background: url("../img/bg.png"); }
+
+.wrapper {
+  background: url("../img/sos.png"); }
+
+.brand {
+  font-family: "Oswald", sans-serif; }
+  .brand .brand-logo {
+    font-size: 40px; }
+  .brand .brand-tagline {
+    font-size: 27px; }
