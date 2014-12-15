@@ -1,17 +1,28 @@
-@import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(http://fonts.googleapis.com/css?family=Raleway|Oswald);
 body {
-  margin-top: 1em;
-  background: url("../img/tactile_noise.png"); }
+  margin-top: 1em; }
+
+.page-title {
+  margin-top: 0;
+  margin-bottom: 30px; }
+
+.paragraph-title {
+  margin-top: 25px; }
+
+body {
+  background: url('../img/tactile_noise.png');
+  font-family: 'Raleway', sans-serif; }
 
 .wrapper {
   background: #fff; }
 
-.brand {
-  font-family: "Oswald", sans-serif; }
-  .brand .brand-logo {
-    font-size: 40px; }
-  .brand .brand-tagline {
-    font-size: 27px; }
+h1, h2, h3, h4, h5, h6, .brand {
+  font-family: 'Oswald', sans-serif; }
+
+.brand .brand-text {
+  font-size: 40px; }
+.brand .brand-tagline {
+  font-size: 27px; }
 
 .separator {
   background: #777;

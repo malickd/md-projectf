@@ -1,6 +1,7 @@
-@import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(http://fonts.googleapis.com/css?family=Raleway|Oswald);
 
-$font-main: 'Oswald', sans-serif;
+$font-main: 'Raleway', sans-serif;
+$font-title: 'Oswald', sans-serif;
 
 $bg-body: url('../img/tactile_noise.png');
 $bg-wrapper: #fff;
@@ -8,18 +9,31 @@ $bg-wrapper: #fff;
 $color-subtle: #777;
 
 body {
-    margin-top: 1em;
-    
+    margin-top: 1em;    
+}
+.page-title {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.paragraph-title {
+    margin-top: 25px;
+}
+
+body {    
     background: $bg-body;
-    
+    font-family: $font-main;
 }
 .wrapper {
     background: $bg-wrapper;
 }
 
+
+h1,h2,h3,h4,h5,h6,
 .brand {
-    font-family: $font-main;
-    .brand-logo {
+    font-family: $font-title;
+}
+.brand {
+    .brand-text {
         font-size: 40px;
     }
     .brand-tagline {
