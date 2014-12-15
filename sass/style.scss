@@ -7,6 +7,9 @@ $bg-body: url('../img/tactile_noise.png');
 $bg-wrapper: #fff;
 
 $color-subtle: #777;
+$color-highlight: red;
+
+/* LAYOUT */
 
 body {
     margin-top: 1em;    
@@ -18,6 +21,10 @@ body {
 .paragraph-title {
     margin-top: 25px;
 }
+
+
+
+/* THEME */
 
 body {    
     background: $bg-body;
@@ -40,7 +47,9 @@ h1,h2,h3,h4,h5,h6,
         font-size: 27px;
     }
 }
-
+.highlight {
+    color: $color-highlight;
+}
 .separator {
     background: $color-subtle;
     height: 2px;
